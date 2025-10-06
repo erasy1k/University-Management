@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная | CloseWant</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+
+  <!-- Шапка -->
+  <header class="bg-light border-bottom py-3 mb-4">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center">
+      <div class="d-flex align-items-center">
+        <img src="data:image/jpeg;base64,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" alt="Логотип" class="me-2" style="width:60px; height:60px; border-radius:10px;">
+        <span class="fs-3 fw-bold text-primary">CloseWant</span>
+      </div>
+
+      <nav class="nav nav-pills">
+        <a class="nav-link active" href="index.html">Главная</a>
+        <a class="nav-link" href="catalog.html">Каталог</a>
+        <a class="nav-link" href="about.html">О нас</a>
+        <a class="nav-link" href="contact.html">Контакты</a>
+      </nav>
+
+      <div class="d-flex align-items-center">
+        <input type="text" class="form-control me-2" placeholder="Поиск..." style="max-width:200px;">
+        <a href="#" class="fs-4 me-3 text-decoration-none">🛒</a>
+        <a href="#" class="fs-4 text-decoration-none">👤</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Основной контент -->
+  <div class="container mb-5">
+    <div class="row">
+      
+      <!-- Боковая панель -->
+      <aside class="col-md-3 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Категории</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-decoration-none d-block py-1">Мужская одежда</a></li>
+              <li><a href="#" class="text-decoration-none d-block py-1">Женская одежда</a></li>
+              <li><a href="#" class="text-decoration-none d-block py-1">Аксессуары</a></li>
+              <li><a href="#" class="text-decoration-none d-block py-1">Новинки</a></li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Главный раздел -->
+      <main class="col-md-9">
+        <div class="text-center mb-4">
+          <h1 class="fw-bold text-primary">Добро пожаловать в CloseWant!</h1>
+          <p class="fs-5 text-muted">Новая коллекция сезона уже доступна!</p>
+        </div>
+
+        <img src="https://stockmann.ru/istk/NXktHdihnKafns6qmkhgGA5g7JztViqaDjrrF8jhq7g/rs:fill:747::1/g:no/bG9jYWw6Ly8vdXBsb2FkLy9jbXMvc3RhdGljL2Zhc2hpb24tYmxvZy9hcnRpY2xlLzY3OTBjODcwZWVjZWFlN2I2NzBhZDI2Yi9ibG9jay82NzkwY2E1MDg5YzRjNzc3YzUwMmJkOWMvR29oSFNLUEhUOUNSTWZVUUF4UGhrZTU2UUFPOGtsUWhQZXo1UUw2Ni5qcGc.jpg" alt="Fashion Look" class="img-fluid rounded shadow-sm mb-4" style="width:180px; height:180px; border-radius:10px;">
+
+        <!-- Форма подписки -->
+        <div class="card shadow-sm p-4">
+          <h4 class="mb-3 text-center">Подпишитесь на новости</h4>
+          <form class="d-flex flex-column flex-sm-row justify-content-center gap-2">
+            <input type="email" class="form-control" placeholder="Введите ваш email" required>
+            <button type="submit" class="btn btn-primary px-4">Подписаться</button>
+          </form>
+        </div>
+      </main>
+
+    </div>
+  </div>
+
+  <!-- Подвал -->
+  <footer class="bg-dark text-white text-center py-3 mt-auto">
+    <p class="mb-0">© 2025 CloseWant | Все права защищены</p>
+    <p class="mb-0">Команда проекта: Kasymkhan Erasyl</p>
+  </footer>
+
+</body>
+</html>
